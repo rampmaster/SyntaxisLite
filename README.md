@@ -43,6 +43,7 @@ Luego de instalar deben agregar las consultas que estan en el archivo **install_
 # Syntaxis Lite es una versión bastante mejorada
 
 ### Cuenta con:
+ * [Licencia Creative Commons "BY-NC-SA"](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es)
  * Buscar de forma mas "**completa**" ya que se puede buscar posts, tags, usuarios y fotos
  * Buscar al instante cualquier post! _(Sin filtros por ahora)_
  * Se puede subir archivos

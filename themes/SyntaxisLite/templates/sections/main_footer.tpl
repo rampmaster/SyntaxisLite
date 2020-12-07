@@ -1,4 +1,4 @@
-		<!--end-cuerpo-->
+      <!--end-cuerpo-->
 </div>
 {if $tsMobile}
    {include "sections/footer_menu_mobile.tpl"}
@@ -42,7 +42,8 @@
          <div class="d-flex justify-content-center align-items-end flex-column">
             <span><strong>{$tsConfig.titulo}</strong> © {$smarty.now|date_format:"%Y"}.</span>
             <div class="footer__top-link">
-               <small>Powered by <a href="https://www.phpost.net/foro/" class="text-info" target="_blank"><strong>PHPost</strong></a> & <a href="https://newrisus.com/" class="text-info" target="_blank"><strong>New Risus</strong></a></small>
+               <small>Powered by <a href="https://www.phpost.net/foro/" class="text-info" target="_blank"><strong>PHPost</strong></a> & <a href="https://newrisus.com/" class="text-info" target="_blank"><strong>New Risus</strong></a><a class="d-block text-right" href="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.es" target="_blank" title="CC BY-NC-SA"><img src="https://licensebuttons.net/l/by-nc-sa/3.0/88x31.png" alt="Licencia Creative Common"></a></small>
+
             </div>
          </div>
       </div>
