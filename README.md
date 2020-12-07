@@ -49,7 +49,7 @@ Luego de instalar deben agregar las consultas que estan en el archivo **install_
  * Se puede cambiar el avatar rápidamente y usandolo con la extensión "**webp**"
  * Se puede usar portada en el perfil
  * Tiene un generador de post en el caso que quieras realizar un post sobre peliculas o juegos
- * Se adapta a dispositivos moviles
+ * Se adapta a dispositivos moviles _(solo con css, muy básico)_
  * Se puede compartir con facebook, twitter y tus seguidores
  * Se puede buscar usuarios _(independiente del buscador original)_
  * Se puede cambiar el header del sitio _(no administrable)_
@@ -87,3 +87,4 @@ Luego de instalar deben agregar las consultas que estan en el archivo **install_
  * Sistema de contacto
  * Avatar con Gravatar
  * Modo dark / oscuro ()
+ * Diseño solo para dispositivos moviles
