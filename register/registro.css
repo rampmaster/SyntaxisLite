@@ -1,0 +1,109 @@
+html {
+	background-position: top center;
+}
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+html,body{
+	height: 100%!important;
+}
+.contboth, #boxms {
+	width: 60%;
+	margin: 10px auto;
+}
+.contboth > h2 {
+	margin: 0;
+	text-align: center;
+	padding: 6px 0;
+}
+.contboth > #RegistroForm .pasoUno .form-group {
+	position: relative;
+	clear: both
+}
+
+.contboth > #RegistroForm .pasoUno .form-group .help {
+   margin-top: -5px;
+   margin-right: -8px;
+}
+.contboth > #RegistroForm .pasoUno .form-group input,
+.contboth > #RegistroForm .pasoUno .form-group select {
+	border: none;
+}
+#show_password {
+	font-size: 12px;
+	color: var(--orange);
+	font-weight: 600;
+	position: absolute;
+	font-style: italic;
+	top: 10px;
+	right: 2px;
+	display: none;
+	cursor: pointer;
+}
+.frase {
+	position: fixed;
+	left: 5px;
+	bottom: 22px;
+	width: 30%;
+	font-size: 11px;
+}
+.fleft {
+	display: inline-block;
+	width: 32.7%;
+}
+#boxms > .box_body {
+	padding: 10px;
+	text-align: center;
+}
+#boxms > .box_body > h1 {
+	padding: 10px 0;
+	font-size: 3rem;
+}
+#boxms > .box_body > p {
+	display: block;
+	padding: 15px 50px 22px 50px;
+	text-align: justify;
+	font-size: 1.1rem;
+}
+#boxms > .box_body > .finalizado {
+	display: inline-block;
+	margin-top: 5px;
+	margin-bottom: -25px;
+	padding: 8px 12px!important;
+	color: var(--orange);
+}
+#load {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 1040;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-color: #333d;
+	color: var(--success);
+	font-weight: 600;
+	text-transform: uppercase;
+	backdrop-filter:blur(2px);
+}
+#load svg {
+	width: 60px;
+	height: 60px;
+	stroke: var(--success);
+}
+.reg_desactivado {
+	width: 560px!important;
+	padding: 30px;
+	text-align: center;
+	font-size: 1em;
+	background-color: #212121cc;
+}
+.reg_desactivado > h1 {
+	font-size: 2.3rem;
+	padding-bottom: 10px;
+}
