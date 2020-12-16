@@ -2,6 +2,11 @@
 
 require __DIR__ . '/vendor/autoload.php';
 
+$loader = new \Twig\Loader\FilesystemLoader(__DIR__ . '/templates');
+$twig = new \Twig\Environment($loader, [
+    'cache' => __DIR__ . '/var/cache/templates',
+]);
+
 /**
  * Resuelve para la home
  *

@@ -1,0 +1,9 @@
+{
+    "name": "syntaxis-lite/syntaxis-lite",
+    "type": "project",
+    "license": "AGPLV3",
+    "require": {
+        "mobiledetect/mobiledetectlib": "^2.8",
+        "twig/twig": "^3.0"
+    }
+}

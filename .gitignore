@@ -1,0 +1,6 @@
+/vendor/
+.idea
+config.inc.php
+/var/cache/
+# Carpetas legada
+/cache
