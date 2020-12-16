@@ -14,7 +14,7 @@
 |	['database'] The name of the database you want to connect to
 */
 
-$db['hostname'] = 'dbhost';
+$db['hostname'] = 'localhost';
 $db['username'] = 'dbuser';
 $db['password'] = 'dbpass';
 $db['database'] = 'dbname';
