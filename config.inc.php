@@ -14,10 +14,10 @@
 |	['database'] The name of the database you want to connect to
 */
 
-$db['hostname'] = 'localhost';
-$db['username'] = 'root';
-$db['password'] = '';
-$db['database'] = 'SyntaxisLite';
+$db['hostname'] = 'dbhost';
+$db['username'] = 'dbuser';
+$db['password'] = 'dbpass';
+$db['database'] = 'dbname';
 $db['setnames'] = 'utf8mb4';
 
 /*
